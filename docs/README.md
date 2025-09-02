@@ -2,79 +2,141 @@
 pageClass: home-page
 # some data for the components
 
-name: Harry Potter
-profile: /profile.jpg
+name: Zhongwen Tu
+profile: /tzw.jpg
 
 socials:
-  - title: github
-    icon: "/icons/github.svg"
-    link: https://github.com/mtobeiyf
+  - title: xintong
+    icon: "/icons/xintong.svg"
+    link: https://ices.cuc.edu.cn/2019/0917/c5332a135499/page.htm
   - title: linkedin
     icon: "/icons/linkedin-mono.svg"
     link: https://www.linkedin.com
-  - title: instagram
-    icon: "/icons/instagram-mono.svg"
-    link: https://www.instagram.com
 
-cv: https://en.wikipedia.org/wiki/Harry_Potter
-bio: Student at Hogwarts School
-email: harry (at) hogwarts (dot) edu
+cv: https://en.wikipedia.org/wiki/
+bio: Master's Supervisor at Communication University of China
+email: bytuzhongwen@cuc.edu.cn
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
 ## About Me
 
-I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. 
+I am currently admitting academic master's students in **Information and Communication Engineering** with a focus on **Intelligent Video Processing**, and professional master's students in **Artificial Intelligence** with a focus on **Intelligent Audio-Visual Technology**.
 
-I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
-
-
-## News
-
-- [Sept 1991] Attended Hogwarts
-- [July 1980] Born in Godric's Hollow, West Country, England, Great Britain
+My primary professional work involves the design, operation, management, and maintenance of studios, audio production rooms, and multimedia systems. My research interests include converged media technologies, speech modeling, and virtual reality. I am the instructor for the course *Introduction to Radio and Television Technology*.	
 
 
 ## Education & Experiences
 
-- **Hogwarts School of Witchcraft and Wizardry** <br/>
-Sept 1991 - 1997
+***Communication University of China***
+*Ph.D. in Audio-Video Communication (Key Laboratory of Audio-Video Communication, Ministry of Education)*
+
+**Communication University of China**
+*M.S. in Television Engineering*
+Sep 2004 – Jun 2006.
+
+**Communication University of China**
+*B.E. in Television Engineering*
+Sep 2000 – Jun 2004
+Academic Training in broadcast engineering, signal processing, and multimedia systems.
+
+## Paper
+
+### Multimodal Emotion Recognition Based on Graph Neural Networks
+
+- This paper proposes an innovative graph neural network framework that integrates hierarchical fusion and a dual-layer graph architecture to address key limitations in multimodal emotion recognition and achieve new state-of-the-art performance.
+- Date：2025-8-30 |  Paper link :  [Multimodal Emotion Recognition Based on Graph Neural Networks](https://www.mdpi.com/2076-3417/15/17/9622))
+
+### A Feature Fusion Model with Data Augmentation for Speech Emotion Recognition
+
+- This study introduces a novel Speech Emotion Recognition method that combines data augmentation with the fusion of deep learning and statistically selected features to overcome challenges of small datasets and improve classification accuracy.
+- Date:-2023-3-22 | Paper link :   [A Feature Fusion Model with Data Augmentation for Speech Emotion Recognition](https://www.mdpi.com/2076-3417/13/7/4124)
+
+### Establishment of Chinese Speech Emotion Database of Broadcasting
+
+- Date: 2021-11-18
+
+### Evaluation Method of Timbre Thickness for Speech Based on CNN
+
+- Date: 2019-06-18
+
+### 基于特征融合矩阵语音音色的厚薄度客观评价
+
+- Date: 2018-05-01
+
+
+
+### *Contributing Author Papers & Patents*
+
+#### 
+
+**Multi-speaker Chinese news broadcasting system based on improved Tacotron2**
+Date: 2023-05-03
+
+**Design and Implementation of Web Socket-Based Monitoring Module for Cloud Broadcasting Management System**
+Date: 2022-10-04
+
+**A Study on the speech timbre space based on subjective evaluation**
+Date: 2021-10-29
+
+**A Virtual Reality-Based Sound and Light Interaction System**
+Date: 2021-07-16
+
+**Research on SVM-based Acoustic Scene Classification Algorithm with Multi-feature Fusion**
+Date: 2020-01-15
+
+**Objective Audio Quality Evaluation Method Based on Compressed Domain**
+Date: 2018-08-01
+
+
 
 
 ## Projects
 
+**Project: Music Art Therapy for the Improvement of Alzheimer's Disease**
+Date: 2025-04-18
+Project ID: HW25074
+Funding (CNY): 50,000
 
-[→ Full list](/projects/)
+**Project: Development of the First China-Indonesia Bilingual Writing Simulation**
+Date: 2024-01-12
+Project ID: HG24005
+Funding (CNY): 90,000
 
-<ProjectCard image="/projects/1.png" hideBorder=true>
+**Project: System and Development of a "Youth Physical Health" Competency Framework**
+Date: 2023-06-06
+Project ID: HW23102
+Funding (CNY): 200,000
 
-  **The Making of Harry Potter's Wand**
+**Project: Development of an Intelligent Robot System for the Hearing Impaired**
+Date: 2022-06-20
+Project ID: HG22032
+Funding (CNY): 150,000
 
-  Harry P., Hermione G., *et al*
-  
-  Harry's wand was broken in 1997, but was repaired by him after the 1998 Battle of Hogwarts. Usually the repair of a wand is impossible, but with the use of the Elder Wand it was achievable.
-  
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)]
+**Project: Constraints on Broadcasting Creation in the All-Media Context...**
+Date: 2022-02-25
+Project ID: HW22024
+Funding (CNY): 500,000
 
-</ProjectCard>
+**Project: Intelligent Acoustic Sensor Source Development**
+Date: 2020-11-08
+Project ID: HG20041
+Funding (CNY): 15,000,000
 
-<ProjectCard hideBorder=true>
+**Project: Broadcasting and Hosting Teaching & Research Evaluation System...**
+Date: 2019-05-27
+Project ID: N/A
+Funding (CNY): 10,000
 
-  **Harry Potter and the Deathly Hallows**
-  
-  In the epilogue of Deathly Hallows, which is set 19 years after Voldemort's death, Harry and Ginny are a couple and have three children: James Sirius Potter, who has already been at Hogwarts for at least one year, Albus Severus Potter, who is starting his first year there, and Lily Luna Potter, who is two years away from her first year at the school.
-
-  [[Link](https://www.google.com)]
-
-</ProjectCard>
+**Project: Emotional Speech Data Collection and Development**
+Date: 2018-12-12
+Project ID: HG1911
+Funding (CNY): 200,000
 
 
-## Awards & Honors
 
-### Contests
 
-- First place in **The Hogwarts House Cup**
 
 
 <!-- Custom style for this page -->

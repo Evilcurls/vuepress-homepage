@@ -1,32 +1,28 @@
 ---
 pageClass: about-page
 description: 'The biography and information about me.'
-avatar: /profile.jpg
-head: 'Harry Potter'
-info: 'Student at Hogwarts School'
-interests: 'Interests: Quidditch and Wizard chess.'
+avatar: /tzw.jpg
+head: 'Zhongwen Tu'
+info: 'Communication University of China'
+interests: 'Interest:Basketball'
 socials:
-- title: github
-  link: https://github.com/mtobeiyf
+- title: xintong
+  link: https://ices.cuc.edu.cn/2019/0917/c5332a135499/page.htm
 - title: linkedin
   link: https://www.linkedin.com
-- title: instagram
-  link: https://www.instagram.com
 - title: email
-  link: 'mailto:harry[at]gmail.com'
+  link: 'bytuzhongwen@cuc.edu.cn'
 actions:
 - text: Projects
   link: /projects/
-- text: Blog
-  link: https://github.com/mtobeiyf
-- text: CV
-  link: /article/
 footer: Made with ♥ by Fing. Powered by VuePress
 ---
 
 <AboutCard :frontmatter="$page.frontmatter" >
 
-I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
+I am currently admitting academic master's students in **Information and Communication Engineering** with a focus on **Intelligent Video Processing**, and professional master's students in **Artificial Intelligence** with a focus on **Intelligent Audio-Visual Technology**.
+
+My primary professional work involves the design, operation, management, and maintenance of studios, audio production rooms, and multimedia systems. My research interests include converged media technologies, speech modeling, and virtual reality. I am the instructor for the course *Introduction to Radio and Television Technology*.	
 
 </AboutCard>
 
@@ -35,7 +31,7 @@ I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org
 .theme-container.about-page .page
   background-color #e6ecf0
   min-height calc(100vh)
-  
+
   .last-updated
     display none
 
